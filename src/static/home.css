@@ -1,0 +1,46 @@
+.customized-nav {
+    position: fixed;
+    top: 0;
+    width: 100;
+    z-index: 1000;
+    /* background-color: rgb(236, 211, 68); */
+    background-color: rgba(255, 255, 0, 0.856);
+    padding: 1em;
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: 0px 0px 100px 100px;
+    transition: height .3s ease-out, .3s ease-out, box-shadow .3s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    color: black;
+    /* width:30%;
+    margin-left: 35%; */
+    /* border-radius: 0px 0px 50px 50px; */
+}
+
+/* .mr-auto {
+    font-size: 30px;
+    color: red;
+} */
+
+.dropdown:hover,
+.dropdown-item:hover,
+#btn-link:hover,
+.nav-link:hover, 
+.nav-link::selection {
+    background-color: orange;
+    color: white !important;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 30px;
+    color: crimson;
+    margin-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
