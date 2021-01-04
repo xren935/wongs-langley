@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './components/home';
 import CarouselGallery from './components/carousel';
+import About from './components/about';
+import Gallery from './components/gallery';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
     <CarouselGallery />
+    <About />
+    <Gallery />
   </React.StrictMode>,
   document.getElementById('root')
 );

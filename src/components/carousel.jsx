@@ -16,7 +16,7 @@ class CarouselGallery extends React.Component {
      
     };
   }
-
+  
   render() {
     return (
         <div className="customized-carousel-gallery" style={{height: "100vh"}}>
