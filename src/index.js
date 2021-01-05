@@ -5,10 +5,12 @@ import Home from './components/home';
 import CarouselGallery from './components/carousel';
 import About from './components/about';
 import Gallery from './components/gallery';
+import ScrollToTop from './components/scrollToTop';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ScrollToTop />
     <Home />
     <CarouselGallery />
     <About />

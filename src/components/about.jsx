@@ -6,7 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import tables from '../static/img/tables.png';
 
-const description = "Wong's Chinese Restaurant is a family owned Chinese food restaurant located in Langley, BC. We have a variety of dishes of different tastes. Wheter you're craving for chow mein or a colourful stir-fry dish, you can always find your favourite Chinese food here. Our services include dine-in, take-out, and free delivery within 5km and a minimum order of $35. In addition, we also offer catering for large scaled events (contact us for more details)."
+const description = "Wong's Chinese Restaurant is a family-owned Chinese food restaurant located in Langley, BC and offers a variety of dishes of different tastes. Wheter you're craving for chow mein or a colourful stir-fry dish, you can always find your favourite Chinese food here. Our services include dine-in, take-out, and free delivery within 5km and a minimum order of $35. In addition, we also offer catering for large scaled events (contact us for more details)."
 
 class About extends React.Component {
   constructor(props){
