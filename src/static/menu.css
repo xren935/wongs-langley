@@ -1,0 +1,44 @@
+.menu {
+    width: 100vw;
+    height: auto;
+    /* background-color: #d3cccc; */
+    background-color: rgb(236, 217, 182);
+}
+
+.menu h3 {
+    text-decoration: underline black;
+    color: rgba(0, 0, 0, 0.685);
+    padding-top: 80px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.menu .subtitle {
+    font-size: 2.5vh;
+    padding-top: 10%;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.content {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10%;
+}
+
+/* style menu items+prices */
+section {
+    display: flex;             
+    margin-bottom: 10px;
+    align-items: center;
+    place-items: center;
+  }
+  section > * {
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    flex: 1;
+    overflow: hidden;
+  }

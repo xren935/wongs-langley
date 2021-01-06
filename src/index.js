@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import ScrollToTop from './components/scrollToTop';
 import Home from './components/home';
 import CarouselGallery from './components/carousel';
 import About from './components/about';
 import Gallery from './components/gallery';
-import ScrollToTop from './components/scrollToTop';
+import Menu from './components/menu';
+import Location from './components/location';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,6 +17,8 @@ ReactDOM.render(
     <CarouselGallery />
     <About />
     <Gallery />
+    <Menu />
+    <Location />
   </React.StrictMode>,
   document.getElementById('root')
 );

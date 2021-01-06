@@ -8,6 +8,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Logo from '../static/img/logo.png';
 import { FaConciergeBell, FaMapMarkerAlt, FaPhoneAlt} from "react-icons/fa";
+import { HashRouter as Router, Switch, Route, withRouter, Link} from 'react-router-dom';
+import About from './about';
 
 class Home extends React.Component {
   constructor(props){
@@ -34,9 +36,9 @@ class Home extends React.Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#home">HOME</Nav.Link>
-              <Nav.Link href="#about">ABOUT</Nav.Link>
-              <Nav.Link href="#link">MENU</Nav.Link>
+              <Nav.Link href="#">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#menu">MENU</Nav.Link>
               <Nav.Link href="#link" style={{ marginRight: "100px"}}>CONTACT</Nav.Link>
               <Nav.Link><FaConciergeBell/></Nav.Link>
               <Nav.Link><FaMapMarkerAlt/></Nav.Link>
