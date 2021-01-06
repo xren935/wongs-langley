@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/wongs-langley/static/css/main.e17ed4a7.chunk.css",
+    "main.js": "/wongs-langley/static/js/main.231a50b4.chunk.js",
+    "main.js.map": "/wongs-langley/static/js/main.231a50b4.chunk.js.map",
+    "runtime-main.js": "/wongs-langley/static/js/runtime-main.9ed197fd.js",
+    "runtime-main.js.map": "/wongs-langley/static/js/runtime-main.9ed197fd.js.map",
+    "static/css/2.729878ea.chunk.css": "/wongs-langley/static/css/2.729878ea.chunk.css",
+    "static/js/2.a0cea7ce.chunk.js": "/wongs-langley/static/js/2.a0cea7ce.chunk.js",
+    "static/js/2.a0cea7ce.chunk.js.map": "/wongs-langley/static/js/2.a0cea7ce.chunk.js.map",
+    "static/js/3.656855a9.chunk.js": "/wongs-langley/static/js/3.656855a9.chunk.js",
+    "static/js/3.656855a9.chunk.js.map": "/wongs-langley/static/js/3.656855a9.chunk.js.map",
+    "index.html": "/wongs-langley/index.html",
+    "static/css/2.729878ea.chunk.css.map": "/wongs-langley/static/css/2.729878ea.chunk.css.map",
+    "static/css/main.e17ed4a7.chunk.css.map": "/wongs-langley/static/css/main.e17ed4a7.chunk.css.map",
+    "static/js/2.a0cea7ce.chunk.js.LICENSE.txt": "/wongs-langley/static/js/2.a0cea7ce.chunk.js.LICENSE.txt",
+    "static/media/beefwithbroccoli.893096de.png": "/wongs-langley/static/media/beefwithbroccoli.893096de.png",
+    "static/media/bento0.2880df0d.png": "/wongs-langley/static/media/bento0.2880df0d.png",
+    "static/media/bento1.c31ce494.png": "/wongs-langley/static/media/bento1.c31ce494.png",
+    "static/media/bento2.12f69218.png": "/wongs-langley/static/media/bento2.12f69218.png",
+    "static/media/chowmein.dd2f8f46.png": "/wongs-langley/static/media/chowmein.dd2f8f46.png",
+    "static/media/font-awesome.min.css": "/wongs-langley/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/friedchicken.fab9d1f0.png": "/wongs-langley/static/media/friedchicken.fab9d1f0.png",
+    "static/media/logo.c6a795ca.png": "/wongs-langley/static/media/logo.c6a795ca.png",
+    "static/media/rice.84af4106.png": "/wongs-langley/static/media/rice.84af4106.png",
+    "static/media/sweetnsourpork.5e61d427.png": "/wongs-langley/static/media/sweetnsourpork.5e61d427.png",
+    "static/media/about.css": "/wongs-langley/static/media/tables.db2ef4b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ed197fd.js",
+    "static/css/2.729878ea.chunk.css",
+    "static/js/2.a0cea7ce.chunk.js",
+    "static/css/main.e17ed4a7.chunk.css",
+    "static/js/main.231a50b4.chunk.js"
+  ]
+}
