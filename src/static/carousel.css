@@ -1,6 +1,7 @@
-html, body {
-    height: 100; 
-    margin: 0; 
+html,
+body {
+    height: 100;
+    margin: 0;
 }
 
 .customized-carousel-gallery {
@@ -11,7 +12,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
-.carousel-indicators li { visibility: hidden; }
+
+.carousel-indicators li {
+    visibility: hidden;
+}
 
 .customized-carousel-gallery img {
     filter: brightness(40%);
@@ -39,17 +43,15 @@ h1 {
     h3 {
         font-size: 30px;
     }
-
     h4 {
         font-size: 24px;
     }
 }
-  
+
 @media screen and (max-width: 700px) {
     h3 {
         font-size: 20px;
     }
-
     h4 {
         font-size: 15px;
     }
@@ -75,3 +77,50 @@ h1 {
     text-align: center;
     place-items: center;
   } */
+
+.btn-outline-secondary:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.btn-iconed {
+    transition: 0.15s ease-in-out;
+    padding-left: 1.3rem;
+    padding-right: 1.5rem;
+}
+
+.btn-iconed [class~=oi],
+.btn-iconed [class~=fa],
+.btn-iconed [class~=typcn]::before,
+.btn-iconed [class~=mdi]::before,
+.btn-iconed [class~=icon]::before {
+    opacity: 0;
+    transform-origin: left right;
+    transform: translateX(-10px) scale(1.25);
+    transition: 0.15s ease-out;
+}
+
+.btn-iconed [class=spn] {
+    position: relative;
+    left: -9px;
+    transform-origin: left right;
+    transform: translateX(-9px);
+    transition: 0.2s ease-in-out;
+}
+
+.btn-iconed:hover [class~=fa],
+.btn-iconed:hover [class~="typcn"]::before {
+    opacity: 1;
+    transform: translateX(0px) scale(0.75);
+}
+
+.btn-iconed:hover [class=spn] {
+    left: 0px;
+}
+
+#direction-btn {
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+    visibility: visible !important;
+    font-size: 2.5vh;
+}

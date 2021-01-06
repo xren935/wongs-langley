@@ -7,7 +7,7 @@ import CarouselGallery from './components/carousel';
 import About from './components/about';
 import Gallery from './components/gallery';
 import Menu from './components/menu';
-import Location from './components/location';
+import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -18,7 +18,7 @@ ReactDOM.render(
     <About />
     <Gallery />
     <Menu />
-    <Location />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

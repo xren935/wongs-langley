@@ -33,6 +33,10 @@ class CarouselGallery extends React.Component {
                     <h1>Wong's Chinese Restaurant</h1>
                     <br></br>
                     <h4><i>a Chinese food restaurant located in Langley, BC</i></h4>
+                    <a id="direction-btn" type="button" href="https://www.google.com/maps/place/Wong's/@49.1038822,-122.6589204,14.64z/data=!4m5!3m4!1s0x0:0x539161c0ae40d832!8m2!3d49.10522!4d-122.658446" class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded">
+                        <i class="fa fa-arrow-right"></i> 
+                        <span class="spn">Direction</span>
+                    </a>
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -47,6 +51,10 @@ class CarouselGallery extends React.Component {
                     <h1>Wong's Chinese Restaurant</h1>
                     <br></br>
                     <h4><i>a Chinese food restaurant located in Langley, BC</i></h4>
+                    <a id="direction-btn" type="button" href="https://www.google.com/maps/place/Wong's/@49.1038822,-122.6589204,14.64z/data=!4m5!3m4!1s0x0:0x539161c0ae40d832!8m2!3d49.10522!4d-122.658446" class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded">
+                        <i class="fa fa-arrow-right"></i> 
+                        <span class="spn">Direction</span>
+                    </a>
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -61,6 +69,10 @@ class CarouselGallery extends React.Component {
                     <h1>Wong's Chinese Restaurant</h1>
                     <br></br>
                     <h4><i>a Chinese food restaurant located in Langley, BC</i></h4>
+                    <a id="direction-btn" type="button" href="https://www.google.com/maps/place/Wong's/@49.1038822,-122.6589204,14.64z/data=!4m5!3m4!1s0x0:0x539161c0ae40d832!8m2!3d49.10522!4d-122.658446" class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded">
+                        <i class="fa fa-arrow-right"></i> 
+                        <span class="spn">Direction</span>
+                    </a>
                 </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
