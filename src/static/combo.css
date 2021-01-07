@@ -1,0 +1,34 @@
+.combo {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(238, 225, 203);
+}
+
+.content {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10%;
+}
+
+.combo h3 {
+    text-decoration: underline black;
+    color: rgba(0, 0, 0, 0.685);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.combo .subtitle {
+    font-size: 2.5vh;
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.combo p {
+    text-align: left;
+    margin-bottom: 3.5%;
+    padding-left: 1.5em;
+    padding-right: 100px;
+}

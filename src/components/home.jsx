@@ -35,8 +35,8 @@ class Home extends React.Component {
             <Nav className="mr-auto">
               <Nav.Link href="#">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#menu">MENU</Nav.Link>
-              <Nav.Link href="#link" style={{ marginRight: "100px"}}>CONTACT</Nav.Link>
+              <Nav.Link href="#combo">MENU</Nav.Link>
+              <Nav.Link href="#footer" style={{ marginRight: "100px"}}>CONTACT</Nav.Link>
               <Nav.Link href="https://www.doordash.com/store/Wong-s-Chinese-Seafood-Restaurant-Langley-City-399169/en-CA/?ignore_splash_experience=true&utm_source=Google&utm_medium=GPA_Ads&utm_campaign=CX_CA_SE_GP_GO_ACQ_CCAXXX__+&gclid=CjwKCAiAudD_BRBXEiwAudakXxNkd1vSghsudJYS8s-4nY1gwSAx-7dnwJAOBQVQsMfzdHWSzZCiLxoCIFAQAvD_BwE"><FaConciergeBell/></Nav.Link>
               <Nav.Link href="https://www.google.com/maps/place/Wong's/@49.10522,-122.658446,15z/data=!4m2!3m1!1s0x0:0x539161c0ae40d832?sa=X&ved=2ahUKEwiu6oKk0YbuAhWHq54KHQJqDzEQ_BIwCnoECBQQBQ"><FaMapMarkerAlt/></Nav.Link>
               <Nav.Link href="#footer"><FaPhoneAlt/></Nav.Link>

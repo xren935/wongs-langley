@@ -13,13 +13,13 @@ class Footer extends Component {
             <footer class="site-footer" id="footer">
                 <div class="container">
                     <div class="row" style={{paddingLeft: "46px"}}>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <h6><b>Address</b></h6>
                             <ul class="footer-links">
                             <li><u><a href="https://www.google.com/maps/place/Wong's/@49.10522,-122.658446,15z/data=!4m2!3m1!1s0x0:0x539161c0ae40d832?sa=X&ved=2ahUKEwjv-vHWy4buAhUKsJ4KHSNQB1cQ_BIwCnoECBYQBQ">20349 Fraser Hwy, Langley City, BC V3A 4E8</a></u></li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <h6><b>Opening Hours</b></h6>
                             <ul class="footer-links">
                             <li>Monday: Closed</li>
@@ -31,7 +31,7 @@ class Footer extends Component {
                             <li>Sunday: 4 - 8PM</li>
                             </ul>
                         </div> 
-                        <div class="col-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <h6><b>Contact Information</b></h6>
                             <ul class="footer-links">
                             <li>(604) 532-6938</li>

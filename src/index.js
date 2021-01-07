@@ -6,6 +6,7 @@ import Home from './components/home';
 import CarouselGallery from './components/carousel';
 import About from './components/about';
 import Gallery from './components/gallery';
+import Combo from './components/combo';
 import Menu from './components/menu';
 import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
@@ -17,6 +18,7 @@ ReactDOM.render(
     <CarouselGallery />
     <About />
     <Gallery />
+    <Combo />
     <Menu />
     <Footer />
   </React.StrictMode>,

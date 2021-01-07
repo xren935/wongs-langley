@@ -10,12 +10,18 @@ import beefbroc from '../static/img/beefwithbroccoli.png';
 import chowmein from '../static/img/chowmein.png'; 
 import rice from '../static/img/rice.png'; 
 import friedchicken from '../static/img/friedchicken.png';
+import springrolls from '../static/img/springrolls.png';
+import snschicken from '../static/img/snschicken.png'; 
+import friedshrimps from '../static/img/friedshrimps.png';
 
 const snsporkDesc = "Made with juicy pieces of pork tenderloin, bell peppers, onion, and pineapple.";
 const friedChickenDesc = "Chinese-style fried chicken. Pair it up with your favourite sauce!";
 const beefbrocDesc = "Made with fresh broccoli, tender nutrition-packed beef, and our house special sauce(containig soy sauce and garlic).";
 const chowmeinDesc = "Classic chicken chow mein containing chicken breast strips and chow mein noodles.";
-const riceDesc = "Fried rice with chunks of Chinese sausage, peas, and carrots."
+const riceDesc = "Fried rice with chunks of Chinese sausage, peas, and carrots.";
+const eggrollDesc = "Crispy egg roll with a delightful bean sprout, carrot, and celery filling.";
+const friedhsrimpsDesc = "Deep fried prawns with fresh slices of lemon."
+const snschickenDesc = "Fried chicken balls with sweet and sour sauce.";
 
 class Gallery extends React.Component {
   constructor(props){
@@ -26,13 +32,13 @@ class Gallery extends React.Component {
   }
 
   render() {
-    var names = ['Sweet and Sour Pork', 'Fried Chicken', 'Beef & Broccoli', 'Chow Mein', 'Fried Rice', 'Another Item', 'Another Item', 'Another Item'];
-    var imgnames = [snspork, friedchicken, beefbroc, chowmein, rice, snspork, friedchicken, beefbroc];
-    var descriptions = [snsporkDesc, friedChickenDesc, beefbrocDesc, chowmeinDesc, riceDesc, snsporkDesc, snsporkDesc, snsporkDesc];
+    var names = ['Sweet & Sour Pork', 'Fried Chicken', 'Beef & Broccoli', 'Chow Mein', 'Fried Rice', 'Egg Roll', 'Sweet & Sour Chicken', 'Deep Fried Shrimp'];
+    var imgnames = [snspork, friedchicken, beefbroc, chowmein, rice, springrolls, snschicken, friedshrimps];
+    var descriptions = [snsporkDesc, friedChickenDesc, beefbrocDesc, chowmeinDesc, riceDesc, eggrollDesc, snschickenDesc, friedhsrimpsDesc];
     var namesList = names.map(function(name, index){
         const currimg = imgnames[index];
         const currdesc = descriptions[index];
-        return  <div class="col-md-3">
+        return  <div class="col-lg-3 col-md-6 col-sm-12">
                 <Card>
                 <Card.Img variant="top" src={currimg}/>
                 <Card.Body>

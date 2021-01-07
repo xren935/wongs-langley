@@ -37,7 +37,9 @@
 .card-img-top {
     border-radius: 50%;
     border: black solid 5px;
-    /* box-shadow: 5px 10px rgba(0, 0, 0, 0.507); */
+    object-fit: cover;
+    /* height: 40vh; */
+    height: 40vh;
 }
 
 .card:hover {
