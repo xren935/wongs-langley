@@ -54,6 +54,7 @@ class Combo extends React.Component {
                 <div className="content">
                     <h3>Combo</h3>
                     <h3 className="subtitle">Special Family Dinner</h3>
+                    <br></br>
                     {familyList}
                     <h3 className="subtitle">Special Family Dinner</h3>
                     {foroneList}

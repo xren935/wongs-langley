@@ -38,7 +38,7 @@ class Gallery extends React.Component {
     var namesList = names.map(function(name, index){
         const currimg = imgnames[index];
         const currdesc = descriptions[index];
-        return  <div class="col-lg-3 col-md-6 col-sm-12">
+        return  <div class="col-lg-3 col-md-6 col-sm-6">
                 <Card>
                 <Card.Img variant="top" src={currimg}/>
                 <Card.Body>
