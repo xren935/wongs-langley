@@ -11,6 +11,45 @@ import Menu from './components/menu';
 import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
 
+// class Index extends React.Component {
+//   state = {
+//     loading: true
+//   };
+
+//   componentDidMount(){
+//     this.fakeRequest().then(() => {
+//       const el = document.querySelector(".loader-container");
+//       if (el) {
+//         el.remove();  // removing the spinner element
+//         this.setState({ loading: false }); // showing the app
+//       }
+//     });
+//   }
+
+//   fakeRequest = () => {
+//     return new Promise(resolve => setTimeout(() => resolve(), 2500));
+//   };
+
+//   render() {
+//     if (this.state.loading) {
+//       return null; //app is not ready (fake request is in process)
+//     }
+
+//     return(
+//       <div className="root">
+//       <ScrollToTop />
+//       <Home />
+//       <CarouselGallery />
+//       <About />
+//       <Gallery />
+//       <Combo />
+//       <Menu />
+//       <Footer />
+//       </div>
+//     );
+//     }
+// }
+// export default Index; 
 ReactDOM.render(
   <React.StrictMode>
     <ScrollToTop />

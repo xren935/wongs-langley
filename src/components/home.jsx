@@ -10,16 +10,32 @@ import Logo from '../static/img/logo.png';
 import { FaConciergeBell, FaMapMarkerAlt, FaPhoneAlt} from "react-icons/fa";
 
 class Home extends React.Component {
+  componentDidMount(){
+    this.fakeRequest().then(() => {
+      const el = document.querySelector(".loader-container");
+      if (el) {
+        el.remove();  // removing the spinner element
+        this.setState({ loading: false }); // showing the app
+      }
+    });
+  }
+
+  fakeRequest = () => {
+    return new Promise(resolve => setTimeout(() => resolve(), 3500));
+  };
+  
   constructor(props){
     super(props);
   
     this.state = {
-     
+      loading: true
     };
   }
 
-
   render() {
+    if (this.state.loading) {
+      return null; //app is not ready (fake request is in process)
+    }
     Aos.init({interval: 1000});
     var FontAwesome = require('react-fontawesome');
     return (
