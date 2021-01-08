@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wongs-langley/static/css/main.a7c4e920.chunk.css",
-    "main.js": "/wongs-langley/static/js/main.5e2c86de.chunk.js",
-    "main.js.map": "/wongs-langley/static/js/main.5e2c86de.chunk.js.map",
+    "main.css": "/wongs-langley/static/css/main.c9170975.chunk.css",
+    "main.js": "/wongs-langley/static/js/main.41aec454.chunk.js",
+    "main.js.map": "/wongs-langley/static/js/main.41aec454.chunk.js.map",
     "runtime-main.js": "/wongs-langley/static/js/runtime-main.fa8fa4af.js",
     "runtime-main.js.map": "/wongs-langley/static/js/runtime-main.fa8fa4af.js.map",
     "static/css/2.729878ea.chunk.css": "/wongs-langley/static/css/2.729878ea.chunk.css",
-    "static/js/2.f18dfb4d.chunk.js": "/wongs-langley/static/js/2.f18dfb4d.chunk.js",
-    "static/js/2.f18dfb4d.chunk.js.map": "/wongs-langley/static/js/2.f18dfb4d.chunk.js.map",
+    "static/js/2.e3c94981.chunk.js": "/wongs-langley/static/js/2.e3c94981.chunk.js",
+    "static/js/2.e3c94981.chunk.js.map": "/wongs-langley/static/js/2.e3c94981.chunk.js.map",
     "static/js/3.bf3416ef.chunk.js": "/wongs-langley/static/js/3.bf3416ef.chunk.js",
     "static/js/3.bf3416ef.chunk.js.map": "/wongs-langley/static/js/3.bf3416ef.chunk.js.map",
     "index.html": "/wongs-langley/index.html",
     "static/css/2.729878ea.chunk.css.map": "/wongs-langley/static/css/2.729878ea.chunk.css.map",
-    "static/css/main.a7c4e920.chunk.css.map": "/wongs-langley/static/css/main.a7c4e920.chunk.css.map",
-    "static/js/2.f18dfb4d.chunk.js.LICENSE.txt": "/wongs-langley/static/js/2.f18dfb4d.chunk.js.LICENSE.txt",
+    "static/css/main.c9170975.chunk.css.map": "/wongs-langley/static/css/main.c9170975.chunk.css.map",
+    "static/js/2.e3c94981.chunk.js.LICENSE.txt": "/wongs-langley/static/js/2.e3c94981.chunk.js.LICENSE.txt",
     "static/media/beefwithbroccoli.893096de.png": "/wongs-langley/static/media/beefwithbroccoli.893096de.png",
     "static/media/bento0.2880df0d.png": "/wongs-langley/static/media/bento0.2880df0d.png",
     "static/media/bento1.c31ce494.png": "/wongs-langley/static/media/bento1.c31ce494.png",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.fa8fa4af.js",
     "static/css/2.729878ea.chunk.css",
-    "static/js/2.f18dfb4d.chunk.js",
-    "static/css/main.a7c4e920.chunk.css",
-    "static/js/main.5e2c86de.chunk.js"
+    "static/js/2.e3c94981.chunk.js",
+    "static/css/main.c9170975.chunk.css",
+    "static/js/main.41aec454.chunk.js"
   ]
 }
