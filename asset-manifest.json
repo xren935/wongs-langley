@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wongs-langley/static/css/main.a7c4e920.chunk.css",
-    "main.js": "/wongs-langley/static/js/main.aed052d3.chunk.js",
-    "main.js.map": "/wongs-langley/static/js/main.aed052d3.chunk.js.map",
-    "runtime-main.js": "/wongs-langley/static/js/runtime-main.fa8fa4af.js",
-    "runtime-main.js.map": "/wongs-langley/static/js/runtime-main.fa8fa4af.js.map",
+    "main.css": "/wongs-langley/static/css/main.069ac821.chunk.css",
+    "main.js": "/wongs-langley/static/js/main.48bab423.chunk.js",
+    "main.js.map": "/wongs-langley/static/js/main.48bab423.chunk.js.map",
+    "runtime-main.js": "/wongs-langley/static/js/runtime-main.dc0861c0.js",
+    "runtime-main.js.map": "/wongs-langley/static/js/runtime-main.dc0861c0.js.map",
     "static/css/2.729878ea.chunk.css": "/wongs-langley/static/css/2.729878ea.chunk.css",
-    "static/js/2.e3c94981.chunk.js": "/wongs-langley/static/js/2.e3c94981.chunk.js",
-    "static/js/2.e3c94981.chunk.js.map": "/wongs-langley/static/js/2.e3c94981.chunk.js.map",
-    "static/js/3.bf3416ef.chunk.js": "/wongs-langley/static/js/3.bf3416ef.chunk.js",
-    "static/js/3.bf3416ef.chunk.js.map": "/wongs-langley/static/js/3.bf3416ef.chunk.js.map",
+    "static/js/2.3f2effe6.chunk.js": "/wongs-langley/static/js/2.3f2effe6.chunk.js",
+    "static/js/2.3f2effe6.chunk.js.map": "/wongs-langley/static/js/2.3f2effe6.chunk.js.map",
+    "static/js/3.6b6e5309.chunk.js": "/wongs-langley/static/js/3.6b6e5309.chunk.js",
+    "static/js/3.6b6e5309.chunk.js.map": "/wongs-langley/static/js/3.6b6e5309.chunk.js.map",
     "index.html": "/wongs-langley/index.html",
     "static/css/2.729878ea.chunk.css.map": "/wongs-langley/static/css/2.729878ea.chunk.css.map",
-    "static/css/main.a7c4e920.chunk.css.map": "/wongs-langley/static/css/main.a7c4e920.chunk.css.map",
-    "static/js/2.e3c94981.chunk.js.LICENSE.txt": "/wongs-langley/static/js/2.e3c94981.chunk.js.LICENSE.txt",
+    "static/css/main.069ac821.chunk.css.map": "/wongs-langley/static/css/main.069ac821.chunk.css.map",
+    "static/js/2.3f2effe6.chunk.js.LICENSE.txt": "/wongs-langley/static/js/2.3f2effe6.chunk.js.LICENSE.txt",
     "static/media/beefwithbroccoli.893096de.png": "/wongs-langley/static/media/beefwithbroccoli.893096de.png",
     "static/media/bento0.2880df0d.png": "/wongs-langley/static/media/bento0.2880df0d.png",
     "static/media/bento1.c31ce494.png": "/wongs-langley/static/media/bento1.c31ce494.png",
@@ -30,10 +30,10 @@
     "static/media/about.css": "/wongs-langley/static/media/tables.db2ef4b2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa8fa4af.js",
+    "static/js/runtime-main.dc0861c0.js",
     "static/css/2.729878ea.chunk.css",
-    "static/js/2.e3c94981.chunk.js",
-    "static/css/main.a7c4e920.chunk.css",
-    "static/js/main.aed052d3.chunk.js"
+    "static/js/2.3f2effe6.chunk.js",
+    "static/css/main.069ac821.chunk.css",
+    "static/js/main.48bab423.chunk.js"
   ]
 }
