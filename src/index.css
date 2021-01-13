@@ -2,7 +2,3 @@ html,
 body {
     overflow-x: hidden;
 }
-
-#loader {
-    visibility: hidden;
-}

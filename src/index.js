@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import ScrollToTop from './components/scrollToTop';
@@ -10,50 +10,16 @@ import Combo from './components/combo';
 import Menu from './components/menu';
 import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga';
+import { withRouter } from 'react-router-dom';
 
-// class Index extends React.Component {
-//   state = {
-//     loading: true
-//   };
-
-//   componentDidMount(){
-//     this.fakeRequest().then(() => {
-//       const el = document.querySelector(".loader-container");
-//       if (el) {
-//         el.remove();  // removing the spinner element
-//         this.setState({ loading: false }); // showing the app
-//       }
-//     });
-//   }
-
-//   fakeRequest = () => {
-//     return new Promise(resolve => setTimeout(() => resolve(), 2500));
-//   };
-
-//   render() {
-//     if (this.state.loading) {
-//       return null; //app is not ready (fake request is in process)
-//     }
-
-//     return(
-//       <div className="root">
-//       <ScrollToTop />
-//       <Home />
-//       <CarouselGallery />
-//       <About />
-//       <Gallery />
-//       <Combo />
-//       <Menu />
-//       <Footer />
-//       </div>
-//     );
-//     }
-// }
-// export default Index; 
+const trackingcode = "UA-187230407-1";
+ReactGA.initialize(trackingcode);
+ReactGA.pageview(window.location.pathname + window.location.search);
 ReactDOM.render(
   <React.StrictMode>
-    <ScrollToTop />
     <Home />
+    <ScrollToTop />
     <CarouselGallery />
     <About />
     <Gallery />
@@ -63,7 +29,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
+// export default Index;
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

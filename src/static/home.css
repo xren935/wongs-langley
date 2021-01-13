@@ -21,10 +21,10 @@
     /* border-radius: 0px 0px 50px 50px; */
 }
 
-/* .mr-auto {
-    font-size: 30px;
-    color: red;
-} */
+#menu-item {
+    text-align: center;
+    justify-self: center;
+}
 
 .dropdown:hover,
 .dropdown-item:hover,
