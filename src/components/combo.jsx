@@ -53,6 +53,28 @@ class Combo extends React.Component {
             <div className="combo" id="combo">
                 <div className="content">
                     <h3>Combo</h3>
+                    <h3 className="subtitle">Lunch Special</h3>
+                    <br></br>
+                    <h4>Available 11:30 AM - 3:00 PM</h4>
+                    <h4 style={{color: "#e68a00"}}>Create your own combo!</h4>
+                    <h4 style={{color: "#e68a00"}}><b>3 items - $9.95</b></h4>
+                    <h4 style={{color: "#e68a00"}}><b>4 items - $11.95</b></h4>
+                    <br></br>
+                    <h4>Choose from:</h4>
+                    <ul style={{fontSize: "20px", listStyle: "none"}}>
+                      <li>Pork Fried Rice</li>
+                      <li>Mushroom Chow Mein</li>
+                      <li>Vegetable Chop Suey</li>
+                      <li>Sweet & Sour Pork</li>
+                      <li>Sweet & Sour Chicken Balls</li>
+                      <li>Almond Chicken</li>
+                      <li>Deep Fried Prawns</li>
+                      <li>Chicken with Black Bean Sauce</li>
+                      <li>Egg Roll</li>
+                      <li>Beef with Brocooli</li>
+                      <li>Almond Guy Ding</li>
+                      <li>Dry Ribs</li>
+                    </ul> 
                     <h3 className="subtitle">Special Family Dinner</h3>
                     <br></br>
                     {familyList}
