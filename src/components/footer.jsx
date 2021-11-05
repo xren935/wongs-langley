@@ -27,7 +27,7 @@ class Footer extends Component {
                             <li>Wednesday: 11:30AM - 9PM</li>
                             <li>Thursday: 11:30AM - 9PM</li>
                             <li>Friday: 11:30AM - 9PM</li>
-                            <li>Saturday: 12- 9PM</li>
+                            <li>Saturday: 11:30AM - 9PM</li>
                             <li>Sunday: 4 - 8PM</li>
                             </ul>
                         </div> 
@@ -46,7 +46,7 @@ class Footer extends Component {
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <ul class="social-icons">
-                            <li><a class="google" href="https://www.google.com/search?q=wongs+chinese+restarutn&oq=wongs+chinese+restarutn&aqs=chrome..69i57j0i13l2j46i13i175i199l2j0i13j46i13i175i199l2.3308j0j4&sourceid=chrome&ie=UTF-8"><FaGoogle /></a></li>
+                            <li><a class="google" href="https://www.google.com/search?q=Wong%27s+Chinese+Restaurant&sxsrf=AOaemvJBtetLSlhyyT2GhTJo04Nk-5gWJQ%3A1636139800431&ei=GIOFYafeGZ2S0PEPpfKUyAM&oq=Wong%27s+Chinese+Restaurant&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjEMkDECcyBQgAEJIDMgoILhDHARCvARBDMgoIABCABBCHAhAUMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgQIABBDOgUIABCRAjoLCAAQgAQQsQMQgwE6BQguEJECOgsILhDHARCvARCRAjoECC4QQzoHCAAQsQMQQzoKCC4QgAQQhwIQFDoNCC4QgAQQhwIQsQMQFDoKCAAQsQMQgwEQQzoLCC4QgAQQxwEQowI6BwgAEEMQiwM6DgguEIAEEMcBEK8BEIsDOhQILhCABBDHARCvARCLAxCmAxCoAzoUCC4QgAQQxwEQrwEQiwMQqAMQpgM6CwguEIAEEMcBEK8BSgQIQRgAUABY0CRg_iZoAHABeACAAaUBiAG0FZIBBDguMTeYAQCgAQG4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwinyu3c94H0AhUdCTQIHSU5BTkQ4dUDCA4&uact=5"><FaGoogle /></a></li>
                             <li><a class="twitter" href="https://www.google.com/maps/place/Wong's/@49.10522,-122.658446,15z/data=!4m2!3m1!1s0x0:0x539161c0ae40d832?sa=X&ved=2ahUKEwiLqIWC0IbuAhVnJzQIHVl5BZAQ_BIwCnoECBcQBQ"><FaMapMarkerAlt /></a></li>
                             <li><a class="insta" href="https://www.doordash.com/store/Wong-s-Chinese-Seafood-Restaurant-Langley-City-399169/en-CA/?ignore_splash_experience=true&utm_source=Google&utm_medium=GPA_Ads&utm_campaign=CX_CA_SE_GP_GO_ACQ_CCAXXX__+&gclid=CjwKCAiAudD_BRBXEiwAudakXxNkd1vSghsudJYS8s-4nY1gwSAx-7dnwJAOBQVQsMfzdHWSzZCiLxoCIFAQAvD_BwE"><FaConciergeBell /></a></li>   
                             </ul>
