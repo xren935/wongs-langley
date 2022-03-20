@@ -28,7 +28,7 @@ var forone = [
   "Combination C",
   "Combination D",
 ];
-var foroneprices = [13, 13, 16, 13];
+var foroneprices = [14, 14, 16, 14];
 var foroneitems = [
   "Pork Fried Rice, Chicken Chow Mein, Sweet & Sour Pork",
   "Chicken Chow Mein, Chicken Chop Suey, Sweet & Sour Chicken",
@@ -77,7 +77,7 @@ class Combo extends React.Component {
               <div className="content">
                 <br></br>
                 <br></br>
-                FREE HOME DELIVERY (within 4km and a minimum order of $40)
+                HOME DELIVERY (within 4km and a minimum order of $40)
                 <br></br>
                 PICK-UP ORDER: 10% OFF (pay with cash and a minimum order of
                 $40)
@@ -90,7 +90,7 @@ class Combo extends React.Component {
                 <h4>Available 11:30 AM - 3:00 PM</h4>
                 <h4 style={{ color: "#e68a00" }}>Create your own combo!</h4>
                 <h4 style={{ color: "#e68a00" }}>
-                  <b>3 items - $10.50</b>
+                  <b>3 items - $11.00</b>
                 </h4>
                 <h4 style={{ color: "#e68a00" }}>
                   <b>4 items - $13.00</b>

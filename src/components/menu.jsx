@@ -26,7 +26,7 @@ class Menu extends React.Component {
     var ribs = ['Sweet & Sour Pork', 'Dry Garlic Pork', 'Honey Garlic Pork', 'Honey Garlic Ribs', 'Dry Garlic Ribs'];
     var ribsprices = [15, 15, 15, 15, 15];
     var chops = ['Chicken Chop Suey', 'Beef Chop Suey', 'B.B.Q. Pork Chop Suey', 'Vegetables Chop Suey', 'Mushroom Chop Suey', 'Special Chop Suey', 'Bak Choy with Oyster Sauce', 'Prawn Chop Suey'];
-    var chopsprices = [14, 14, 14, 14, 14, 14, 14, 15];
+    var chopsprices = [14, 15, 14, 14, 14, 14, 14, 16];
     var fooyoungs = ['Chicken Egg Foo Young', 'B.B.Q. Pork Egg Foo Young', 'Mushrooms Egg Foo Young', 'Special Foo Young', 'Shrimp Egg Foo Young'];
     var fooyoungsprices = [12, 12, 12, 13, 13];
     var friedrices = ['B.B.Q. Pork Fried Rice', 'Chicken Fried Rice', 'Beef Fried Rice', 'Vegetables Fried Rice', 'Mushroom Fried Rice', 'Shrimps Fried Rice', 'Special Fried Rice', 'Chicken Mushroom Fried Rice', 'Curry Beef Fried Rice', 'Curry Chicken Fried Rice', 'Beef Tomato Fried Rice'];
@@ -34,13 +34,13 @@ class Menu extends React.Component {
     var chickens = ['Almond Chicken', 'Lemon Chicken', 'Sweet & Sour Chicken', 'Chicken with Curry Sauce (Hot)', 'Chicken with Black Bean Sauce (Hot)', 'Chicken in Szechuan Sauce (Hot)', 'Almond Guy Ding', 'Cashew Guy Ding', 'Gung Bo Guy Ding (Hot)', 'Chicken with Bok Choy', 'Chicken with Broccoli'];
     var chickensprices = [15, 15, 15, 14, 14, 14, 14, 14, 14, 14, 14];
     var beefs = ['Beef with Broccoli', 'Beef with Bok Choy', 'Beef Green Beans Black Bean Sauce', 'Green Beans with Pepper Salt', 'Beef with Snow Peas', 'Beef with Curry Sauce (Hot)', 'Beef with Black Bean Sauce', 'Beef with Szechuan Sauce (Hot)', 'Beef with Black Pepper Sauce (Hot)', 'Ginger Fried Shredded Beef (Hot)', 'Beef with Fresh Tomato'];
-    var beefsprices = [14, 14, 15, 15, 15, 14, 14, 14, 14, 15, 14];
+    var beefsprices = [15, 15, 16, 16, 16, 15, 15, 15, 15, 16, 15];
     var seafoods = ['Deep Fried Prawns', 'Prawns with Broccoli', 'Prawns with Bok Choy', 'Prawns with Snow Peas', 'Prawns with Black Bean Sauce', 'Prawns in Szechuan Sauce', 'Prawns with Curry Sauce (Hot)', 'Prawns (Shell in) in Pepper Salt (Hot)', 'Deep Fried Squid in Pepper Sauce (Hot)', 'Squid with Black Bean Sauce (Hot)', 'Squid with Curry Sauce (Hot)', 'Scallops with Snow Peas', 'Scallops with Vegetable'];
-    var seafoodsprices = [15, 15, 15, 16, 15, 15, 15, 16, 16, 15, 15, 16, 15];
+    var seafoodsprices = [16, 16, 16, 17, 16, 16, 16, 17, 17, 16, 16, 17, 16];
     var chowmeins = ['Chicken Chow Mein', 'Beef Chow Mein', 'B.B.Q. Pork Chow Mein', 'Mushroom Chow Mein', 'Vegetables Chow Mein', 'Shrimps Chow Mein', 'Special Chow Mein', 'Chicken Mushroom Chow Mein', 'Curry Chicken Chow Mein', 'Curry Beef Chow Mein', 'Chicken Tomato Chow Mein', 'Beef Tomato Chow Mein', 'Shanghai Chow Mein', 'Singapore Fried Rice Noodle', 'Beef Chow Fun', 'Beef and Vegetables Chow Fun', ' Beef Chow Fun with Black Bean Sauce'];
     var chowmeinsprices = [11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 13, 12, 13, 13, 13, 13, 14];
     var crispchowmeins = ['Cantonese Chow Mein (Crispy)', 'Ginger Beef Chow Mein (Crispy)', 'Chicken Chow Mein (Crispy)', 'Beef Chow Mein (Crispy)', 'Prawn Chow Mein (Crispy)'];
-    var crispchowmeinsprices = [15, 15, 15, 15, 16];
+    var crispchowmeinsprices = [16, 16, 16, 16, 17];
     var sides = ['Sweet and Sour Sauce', 'Curry Sauce', 'Lemon Sauce', 'Black Bean Sauce', 'Steamed Rice', 'French Fries', 'Seasame Seed', 'Hot Sauce', 'Hot Oil', 'Canned Pop'];
     var sidesprices = [3, 3, 3, 3, 3, 6, 1, 1, 1, 2.5];
 
