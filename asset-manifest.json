@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wongs-langley/static/css/main.069ac821.chunk.css",
-    "main.js": "/wongs-langley/static/js/main.0810e1c6.chunk.js",
-    "main.js.map": "/wongs-langley/static/js/main.0810e1c6.chunk.js.map",
+    "main.js": "/wongs-langley/static/js/main.97c0a10e.chunk.js",
+    "main.js.map": "/wongs-langley/static/js/main.97c0a10e.chunk.js.map",
     "runtime-main.js": "/wongs-langley/static/js/runtime-main.dc0861c0.js",
     "runtime-main.js.map": "/wongs-langley/static/js/runtime-main.dc0861c0.js.map",
     "static/css/2.729878ea.chunk.css": "/wongs-langley/static/css/2.729878ea.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.729878ea.chunk.css",
     "static/js/2.ed57f3cc.chunk.js",
     "static/css/main.069ac821.chunk.css",
-    "static/js/main.0810e1c6.chunk.js"
+    "static/js/main.97c0a10e.chunk.js"
   ]
 }
